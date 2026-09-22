@@ -1,0 +1,13 @@
+# Versions below are those installed on the machine where the analysis outputs
+# in this project were generated (Python 3.9.6, macOS). The paper text reports
+# Python 3.11; verify which interpreter produced the published numbers.
+pandas==2.2.3
+numpy==2.0.2
+scipy==1.13.1              # scipy.stats.false_discovery_control requires >=1.11
+statsmodels==0.14.6        # MixedLM
+scikit-learn==1.6.1        # PCA, StandardScaler, t-SNE
+matplotlib==3.9.2
+torch==2.4.1
+transformers==4.50.3
+spacy==3.8.7               # loaded by seance_adapter.py for POS features (needs en_core_web_sm)
+openpyxl==3.1.5            # only if reading .xlsx inputs

@@ -1,0 +1,9 @@
+{
+  "_comment": "Format expected by 00_clean_concern_text.py. Copy to corrections.json (git-ignored) and fill in from your own data, or request the corresponding author's copy under the data use agreement. Keys/values below are illustrative, not real participant text.",
+  "typo_corrections": {
+    "exmaple typo": "example"
+  },
+  "nothing_equiv": [
+    "no", "nope", "n/a", "na", "none", "nothing", "not much", "not sure", "unsure", "idk"
+  ]
+}

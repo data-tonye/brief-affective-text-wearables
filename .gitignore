@@ -1,0 +1,30 @@
+# Data and anything derived from participant data must never be committed
+data/
+outputs/
+third_party/
+corrections.json
+*.csv
+*.xls
+*.xlsx
+*.npy
+*.npz
+*.pkl
+*.parquet
+*.png
+*.pdf
+checkpoints/
+embedding_outputs/
+results/
+figures/
+interpretation_outputs/
+variance_dominance_outputs/
+domain_results/
+*_log.txt
+*_report.txt
+*_summary.txt
+# Environment
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
